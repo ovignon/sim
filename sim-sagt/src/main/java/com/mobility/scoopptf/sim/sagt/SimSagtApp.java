@@ -1,0 +1,50 @@
+package com.mobility.scoopptf.sim.sagt;
+
+import java.net.InetSocketAddress;
+
+import org.apache.commons.lang3.StringUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import com.mobility.scoopptf.sim.sagt.handlers.SagtPushHandler;
+import com.mobility.scoopptf.sim.sagt.handlers.SagtSnapshotConfPmvHandler;
+import com.mobility.scoopptf.sim.sagt.handlers.SagtSnapshotEvtInfoHandler;
+import com.mobility.scoopptf.sim.sagt.handlers.SagtSnapshotInfoParkingHandler;
+import com.mobility.scoopptf.sim.sagt.handlers.SagtSnapshotInfoPmvHandler;
+import com.sun.net.httpserver.HttpServer;
+
+public class SimSagtApp {
+
+	public static final int DEFAULT_PORT = 9191;
+
+	private static Logger LOGGER = LoggerFactory.getLogger(SimSagtApp.class);
+
+	public static void main(String[] args) {
+
+		int port = DEFAULT_PORT;
+
+		if (args != null && args.length > 0 && StringUtils.isNumeric(args[0])) {
+			port = Integer.valueOf(args[0]);
+		}
+
+		try {
+
+			LOGGER.info("===== SAGT Simulation on port {} =====", port);
+
+			HttpServer server = HttpServer.create(new InetSocketAddress(port), 0);
+			server.createContext("/push", new SagtPushHandler());
+			server.createContext("/snapshot-evt-info", new SagtSnapshotEvtInfoHandler());
+			server.createContext("/snapshot-conf-pmv", new SagtSnapshotConfPmvHandler());
+			server.createContext("/snapshot-info-pmv", new SagtSnapshotInfoPmvHandler());
+			server.createContext("/snapshot-info-parking", new SagtSnapshotInfoParkingHandler());
+			server.setExecutor(null);
+			server.start();
+
+		} catch (Exception exc) {
+			LOGGER.error("{}", exc);
+			System.exit(1);
+		}
+
+	}
+
+}

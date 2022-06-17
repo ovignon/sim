@@ -1,0 +1,3 @@
+curl http://127.0.0.1:9191/snapshot-conf-pmv
+
+curl -X POST -d "Tata" localhost:9191/push

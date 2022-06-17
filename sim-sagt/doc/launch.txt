@@ -1,0 +1,5 @@
+# Exécution avec le port 9191 par défaut :
+java -jar target/sim-sagt-1.0.0-SNAPSHOT-jar-with-dependencies.jar
+
+# Exécution avec le port 8088 en argument :
+java -jar target/sim-sagt-1.0.0-SNAPSHOT-jar-with-dependencies.jar 8088

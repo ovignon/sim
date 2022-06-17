@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://datex2.eu/wsdl/clientPull/2_0" xmlns:D2LogicalModel="http://datex2.eu/schema/2/2_0" xmlns:ns2="http://datex2.eu/wsdl/supplierPush/2_0">
+  <SOAP-ENV:Header>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <D2LogicalModel:d2LogicalModel modelBaseVersion="2">
+      <D2LogicalModel:exchange>
+        <D2LogicalModel:response>acknowledge</D2LogicalModel:response>
+        <D2LogicalModel:supplierIdentification>
+          <D2LogicalModel:country>fr</D2LogicalModel:country>
+          <D2LogicalModel:nationalIdentifier>SCOOP_DIRO_SAGT</D2LogicalModel:nationalIdentifier>
+        </D2LogicalModel:supplierIdentification>
+      </D2LogicalModel:exchange>
+    </D2LogicalModel:d2LogicalModel>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
