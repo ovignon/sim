@@ -34,16 +34,12 @@ public class SimUtil {
 	public static void sendResponseWithResource(HttpExchange exchange, String resourcePath) throws IOException {
 		String response = SimUtil.buildReponseWithResource(resourcePath);
 		int responseCode = 200;
-		exchange.sendResponseHeaders(responseCode, response.length());
+		exchange.sendResponseHeaders(responseCode, response.getBytes().length);
 		exchange.getResponseHeaders().set("Content-Type", "text/xml");
 		OutputStream os = exchange.getResponseBody();
+		LOGGER.info("=====> response.length() = {} / response.getBytes().length = {}", response.length(), response.getBytes().length);
 		os.write(response.getBytes());
-		try {
-			Thread.sleep(1000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		os.flush();
 		os.close();
 	}
 
