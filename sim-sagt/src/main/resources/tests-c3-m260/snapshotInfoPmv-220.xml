@@ -29,8 +29,8 @@
 			<D2LogicalModel:informationStatus>real</D2LogicalModel:informationStatus>
 		</D2LogicalModel:headerInformation>
 		<D2LogicalModel:vmsUnit>
-			<D2LogicalModel:vmsUnitTableReference targetClass="VmsUnitTable" version="215" id="CRF_301_IVI_C3"/>
-			<D2LogicalModel:vmsUnitReference targetClass="VmsUnitRecord" version="215" id="DIRIF"/>
+			<D2LogicalModel:vmsUnitTableReference targetClass="VmsUnitTable" version="220" id="CRF_301_IVI_C3"/>
+			<D2LogicalModel:vmsUnitReference targetClass="VmsUnitRecord" version="220" id="DIRIF"/>
 			<D2LogicalModel:vms vmsIndex="1"> <!-- Normal -->
 				<D2LogicalModel:vms>
 					<D2LogicalModel:vmsWorking>true</D2LogicalModel:vmsWorking>
@@ -75,7 +75,7 @@
 								<D2LogicalModel:vmsText>
 									<D2LogicalModel:vmsTextLine lineIndex="1">
 										<D2LogicalModel:vmsTextLine>
-											<D2LogicalModel:vmsTextLine>A4&gt;BP:      </D2LogicalModel:vmsTextLine>
+											<D2LogicalModel:vmsTextLine>220-2-1</D2LogicalModel:vmsTextLine>
 										</D2LogicalModel:vmsTextLine>
 									</D2LogicalModel:vmsTextLine>
 									<D2LogicalModel:vmsTextLine lineIndex="2">

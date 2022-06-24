@@ -1,16 +1,15 @@
 package com.mobility.scoopptf.sim.sagt;
 
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.net.InetSocketAddress;
 
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.mobility.scoopptf.sim.sagt.handlers.SagtPushHandler;
-import com.mobility.scoopptf.sim.sagt.handlers.SagtSnapshotConfPmvHandler;
-import com.mobility.scoopptf.sim.sagt.handlers.SagtSnapshotEvtInfoHandler;
-import com.mobility.scoopptf.sim.sagt.handlers.SagtSnapshotInfoParkingHandler;
-import com.mobility.scoopptf.sim.sagt.handlers.SagtSnapshotInfoPmvHandler;
+import com.mobility.scoopptf.sim.handlers.SimFileHandler;
+import com.mobility.scoopptf.sim.handlers.SimResourceHandler;
 import com.sun.net.httpserver.HttpServer;
 
 public class SimSagtApp {
@@ -19,7 +18,7 @@ public class SimSagtApp {
 
 	private static Logger LOGGER = LoggerFactory.getLogger(SimSagtApp.class);
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws FileNotFoundException, IOException {
 
 		int port = DEFAULT_PORT;
 
@@ -32,11 +31,14 @@ public class SimSagtApp {
 			LOGGER.info("===== SAGT Simulation on port {} =====", port);
 
 			HttpServer server = HttpServer.create(new InetSocketAddress(port), 0);
-			server.createContext("/push", new SagtPushHandler());
-			server.createContext("/snapshot-evt-info", new SagtSnapshotEvtInfoHandler());
-			server.createContext("/snapshot-conf-pmv", new SagtSnapshotConfPmvHandler());
-			server.createContext("/snapshot-info-pmv", new SagtSnapshotInfoPmvHandler());
-			server.createContext("/snapshot-info-parking", new SagtSnapshotInfoParkingHandler());
+			server.createContext("/push", new SimResourceHandler());
+			server.createContext("/snapshot-evt-info", new SimResourceHandler());
+			server.createContext("/snapshot-conf-pmv", new SimResourceHandler("/tests-c3-m260/snapshotConfPmv-{0}.xml",
+					"c:/projets/scoop/tmp/number.txt"));
+			server.createContext("/snapshot-info-pmv", new SimResourceHandler("/tests-c3-m260/snapshotInfoPmv-{0}.xml",
+					"c:/projets/scoop/tmp/number.txt"));
+			server.createContext("/snapshot-info-parking", new SimResourceHandler());
+			server.createContext("/tmp", new SimFileHandler("C:\\projets\\scoop\\tmp\\tmp-bashrc.txt"));
 			server.setExecutor(null);
 			server.start();
 

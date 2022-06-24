@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" ?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body>
+<!-- scoop-test/AvecRIU/Snapshot/SAGT/DATEX_SAGT_2_EVT_VMS_Config.xml -->
+<D2LogicalModel:d2LogicalModel xmlns:D2LogicalModel="http://datex2.eu/schema/2/2_0" xmlns:schemaLocation="http://datex2.eu/schema/2/2_0/DATEXIISchema_2_2_3.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" modelBaseVersion="2">
+	<D2LogicalModel:exchange>
+		<D2LogicalModel:supplierIdentification>
+			<D2LogicalModel:country>fr</D2LogicalModel:country>
+			<D2LogicalModel:nationalIdentifier>Sirius</D2LogicalModel:nationalIdentifier>
+		</D2LogicalModel:supplierIdentification>
+		<D2LogicalModel:subscription>
+			<D2LogicalModel:operatingMode>operatingMode2</D2LogicalModel:operatingMode>
+			<D2LogicalModel:subscriptionStartTime>2016-01-01T00:00:00.000+01:00</D2LogicalModel:subscriptionStartTime>
+			<D2LogicalModel:subscriptionState>active</D2LogicalModel:subscriptionState>
+			<D2LogicalModel:updateMethod>allElementUpdate</D2LogicalModel:updateMethod>
+			<D2LogicalModel:target>
+				<D2LogicalModel:address>not used</D2LogicalModel:address>
+				<D2LogicalModel:protocol>ftp</D2LogicalModel:protocol>
+			</D2LogicalModel:target>
+		</D2LogicalModel:subscription>
+	</D2LogicalModel:exchange>
+
+	<D2LogicalModel:payloadPublication xsi:type="D2LogicalModel:VmsTablePublication" lang="fr">
+		<D2LogicalModel:publicationTime>2018-10-04T09:40:27+02:00</D2LogicalModel:publicationTime>
+		<D2LogicalModel:publicationCreator>
+			<D2LogicalModel:country>fr</D2LogicalModel:country>
+			<D2LogicalModel:nationalIdentifier>SAGT_TG</D2LogicalModel:nationalIdentifier>
+		</D2LogicalModel:publicationCreator>
+		<D2LogicalModel:headerInformation>
+			<D2LogicalModel:confidentiality>noRestriction</D2LogicalModel:confidentiality>
+			<D2LogicalModel:informationStatus>real</D2LogicalModel:informationStatus>
+		</D2LogicalModel:headerInformation>
+		<D2LogicalModel:vmsUnitTable id="CRF_301_IVI_C3" version="220">
+			<D2LogicalModel:vmsUnitRecord id="DIRIF" version="220">
+				<D2LogicalModel:numberOfVms>9</D2LogicalModel:numberOfVms>
+				<D2LogicalModel:vmsRecord vmsIndex="1"> <!-- Localisation ponctuelle -->
+					<D2LogicalModel:vmsRecord>
+						<D2LogicalModel:vmsOwner>
+							<D2LogicalModel:values>
+								<D2LogicalModel:value lang="fr">Sirius</D2LogicalModel:value>
+							</D2LogicalModel:values>
+						</D2LogicalModel:vmsOwner>
+						<D2LogicalModel:numberOfPictogramDisplayAreas>0</D2LogicalModel:numberOfPictogramDisplayAreas>
+						<D2LogicalModel:vmsTextDisplayCharacteristics>
+							<D2LogicalModel:textPageSequencingCapable>true</D2LogicalModel:textPageSequencingCapable>
+							<D2LogicalModel:maxNumberOfCharacters>18</D2LogicalModel:maxNumberOfCharacters>
+							<D2LogicalModel:maxNumberOfRows>2</D2LogicalModel:maxNumberOfRows>
+						</D2LogicalModel:vmsTextDisplayCharacteristics>
+						<D2LogicalModel:vmsLocation xsi:type="D2LogicalModel:Point">
+							<D2LogicalModel:pointAlongLinearElement>
+								<D2LogicalModel:directionRelativeAtPoint>aligned</D2LogicalModel:directionRelativeAtPoint>
+								<D2LogicalModel:linearElement>
+									<D2LogicalModel:roadNumber>A0004</D2LogicalModel:roadNumber>
+								</D2LogicalModel:linearElement>
+								<D2LogicalModel:distanceAlongLinearElement xsi:type="D2LogicalModel:DistanceFromLinearElementReferent">
+									<D2LogicalModel:distanceAlong>190</D2LogicalModel:distanceAlong>
+									<D2LogicalModel:fromReferent>
+										<D2LogicalModel:referentIdentifier>94PR11D</D2LogicalModel:referentIdentifier>
+										<D2LogicalModel:referentType>referenceMarker</D2LogicalModel:referentType>
+									</D2LogicalModel:fromReferent>
+								</D2LogicalModel:distanceAlongLinearElement>
+							</D2LogicalModel:pointAlongLinearElement>
+						</D2LogicalModel:vmsLocation>
+					</D2LogicalModel:vmsRecord>
+				</D2LogicalModel:vmsRecord>
+				<D2LogicalModel:vmsRecord vmsIndex="2"> <!-- Localisation linéaire -->
+					<D2LogicalModel:vmsRecord>
+						<D2LogicalModel:vmsOwner>
+							<D2LogicalModel:values>
+								<D2LogicalModel:value lang="fr">Sirius</D2LogicalModel:value>
+							</D2LogicalModel:values>
+						</D2LogicalModel:vmsOwner>
+						<D2LogicalModel:numberOfPictogramDisplayAreas>0</D2LogicalModel:numberOfPictogramDisplayAreas>
+						<D2LogicalModel:vmsTextDisplayCharacteristics>
+							<D2LogicalModel:textPageSequencingCapable>true</D2LogicalModel:textPageSequencingCapable>
+							<D2LogicalModel:maxNumberOfCharacters>12</D2LogicalModel:maxNumberOfCharacters>
+							<D2LogicalModel:maxNumberOfRows>2</D2LogicalModel:maxNumberOfRows>
+						</D2LogicalModel:vmsTextDisplayCharacteristics>
+						<D2LogicalModel:vmsLocation xsi:type="D2LogicalModel:Linear">
+							<D2LogicalModel:linearWithinLinearElement>
+								<D2LogicalModel:directionRelativeOnLinearSection>aligned</D2LogicalModel:directionRelativeOnLinearSection>
+								<D2LogicalModel:linearElement>
+									<D2LogicalModel:roadNumber>A0004</D2LogicalModel:roadNumber>
+								</D2LogicalModel:linearElement>
+								<D2LogicalModel:fromPoint xsi:type="D2LogicalModel:DistanceFromLinearElementReferent">
+									<D2LogicalModel:distanceAlong>190</D2LogicalModel:distanceAlong>
+									<D2LogicalModel:fromReferent>
+										<D2LogicalModel:referentIdentifier>94PR0D</D2LogicalModel:referentIdentifier>
+										<D2LogicalModel:referentType>referenceMarker</D2LogicalModel:referentType>
+									</D2LogicalModel:fromReferent>
+								</D2LogicalModel:fromPoint>
+								<D2LogicalModel:toPoint xsi:type="D2LogicalModel:DistanceFromLinearElementReferent">
+									<D2LogicalModel:distanceAlong>881</D2LogicalModel:distanceAlong>
+									<D2LogicalModel:fromReferent>
+										<D2LogicalModel:referentIdentifier>94PR2D</D2LogicalModel:referentIdentifier>
+										<D2LogicalModel:referentType>referenceMarker</D2LogicalModel:referentType>
+									</D2LogicalModel:fromReferent>
+								</D2LogicalModel:toPoint>
+							</D2LogicalModel:linearWithinLinearElement>
+						</D2LogicalModel:vmsLocation>
+					</D2LogicalModel:vmsRecord>
+				</D2LogicalModel:vmsRecord>
+				<D2LogicalModel:vmsRecord vmsIndex="3"> <!-- Localisation ponctuelle -->
+					<D2LogicalModel:vmsRecord>
+						<D2LogicalModel:vmsOwner>
+							<D2LogicalModel:values>
+								<D2LogicalModel:value lang="fr">Sirius</D2LogicalModel:value>
+							</D2LogicalModel:values>
+						</D2LogicalModel:vmsOwner>
+						<D2LogicalModel:numberOfPictogramDisplayAreas>0</D2LogicalModel:numberOfPictogramDisplayAreas>
+						<D2LogicalModel:vmsTextDisplayCharacteristics>
+							<D2LogicalModel:textPageSequencingCapable>true</D2LogicalModel:textPageSequencingCapable>
+							<D2LogicalModel:maxNumberOfCharacters>18</D2LogicalModel:maxNumberOfCharacters>
+							<D2LogicalModel:maxNumberOfRows>2</D2LogicalModel:maxNumberOfRows>
+						</D2LogicalModel:vmsTextDisplayCharacteristics>
+						<D2LogicalModel:vmsLocation xsi:type="D2LogicalModel:Point">
+							<D2LogicalModel:pointAlongLinearElement>
+								<D2LogicalModel:directionRelativeAtPoint>opposite</D2LogicalModel:directionRelativeAtPoint>
+								<D2LogicalModel:linearElement>
+									<D2LogicalModel:roadNumber>A0104</D2LogicalModel:roadNumber>
+								</D2LogicalModel:linearElement>
+								<D2LogicalModel:distanceAlongLinearElement xsi:type="D2LogicalModel:DistanceFromLinearElementReferent">
+									<D2LogicalModel:distanceAlong>300</D2LogicalModel:distanceAlong>
+									<D2LogicalModel:fromReferent>
+										<D2LogicalModel:referentIdentifier>77PR23G</D2LogicalModel:referentIdentifier>
+										<D2LogicalModel:referentType>referenceMarker</D2LogicalModel:referentType>
+									</D2LogicalModel:fromReferent>
+								</D2LogicalModel:distanceAlongLinearElement>
+							</D2LogicalModel:pointAlongLinearElement>
+						</D2LogicalModel:vmsLocation>
+					</D2LogicalModel:vmsRecord>
+				</D2LogicalModel:vmsRecord>
+        <D2LogicalModel:vmsRecord vmsIndex="4"> <!-- Localisation linéaire -->
+          <D2LogicalModel:vmsRecord>
+            <D2LogicalModel:vmsOwner>
+              <D2LogicalModel:values>
+                <D2LogicalModel:value lang="fr">Sirius</D2LogicalModel:value>
+              </D2LogicalModel:values>
+            </D2LogicalModel:vmsOwner>
+            <D2LogicalModel:numberOfPictogramDisplayAreas>0</D2LogicalModel:numberOfPictogramDisplayAreas>
+            <D2LogicalModel:vmsTextDisplayCharacteristics>
+              <D2LogicalModel:textPageSequencingCapable>true</D2LogicalModel:textPageSequencingCapable>
+              <D2LogicalModel:maxNumberOfCharacters>12</D2LogicalModel:maxNumberOfCharacters>
+              <D2LogicalModel:maxNumberOfRows>2</D2LogicalModel:maxNumberOfRows>
+            </D2LogicalModel:vmsTextDisplayCharacteristics>
+            <D2LogicalModel:vmsLocation xsi:type="D2LogicalModel:Linear">
+              <D2LogicalModel:linearWithinLinearElement>
+                <D2LogicalModel:directionRelativeOnLinearSection>aligned</D2LogicalModel:directionRelativeOnLinearSection>
+                <D2LogicalModel:linearElement>
+                  <D2LogicalModel:roadNumber>A0104</D2LogicalModel:roadNumber>
+                </D2LogicalModel:linearElement>
+                <D2LogicalModel:fromPoint xsi:type="D2LogicalModel:DistanceFromLinearElementReferent">
+                  <D2LogicalModel:distanceAlong>20</D2LogicalModel:distanceAlong>
+                  <D2LogicalModel:fromReferent>
+                    <D2LogicalModel:referentIdentifier>77PR10D</D2LogicalModel:referentIdentifier>
+                    <D2LogicalModel:referentType>referenceMarker</D2LogicalModel:referentType>
+                  </D2LogicalModel:fromReferent>
+                </D2LogicalModel:fromPoint>
+                <D2LogicalModel:toPoint xsi:type="D2LogicalModel:DistanceFromLinearElementReferent">
+                  <D2LogicalModel:distanceAlong>15</D2LogicalModel:distanceAlong>
+                  <D2LogicalModel:fromReferent>
+                    <D2LogicalModel:referentIdentifier>77PR12D</D2LogicalModel:referentIdentifier>
+                    <D2LogicalModel:referentType>referenceMarker</D2LogicalModel:referentType>
+                  </D2LogicalModel:fromReferent>
+                </D2LogicalModel:toPoint>
+              </D2LogicalModel:linearWithinLinearElement>
+            </D2LogicalModel:vmsLocation>
+          </D2LogicalModel:vmsRecord>
+        </D2LogicalModel:vmsRecord>
+      </D2LogicalModel:vmsUnitRecord>
+		</D2LogicalModel:vmsUnitTable>
+	</D2LogicalModel:payloadPublication>
+</D2LogicalModel:d2LogicalModel></soapenv:Body></soapenv:Envelope>

@@ -9,9 +9,17 @@ import com.mobility.scoopptf.sim.util.SimUtil;
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 
-public class SimGenericHandler implements HttpHandler {
+public class SimEmptyResponseWithCodeHandler implements HttpHandler {
 
-	private Logger logger = LoggerFactory.getLogger(SimGenericHandler.class);
+	private Logger logger = LoggerFactory.getLogger(SimEmptyResponseWithCodeHandler.class);
+	private int responseCode = 200;
+
+	public SimEmptyResponseWithCodeHandler() {
+	}
+
+	public SimEmptyResponseWithCodeHandler(int responseCode) {
+		this.responseCode = responseCode;
+	}
 
 	@Override
 	public void handle(HttpExchange exchange) throws IOException {
@@ -20,7 +28,7 @@ public class SimGenericHandler implements HttpHandler {
 		if (SimUtil.exchangeMethodIsPost(exchange)) {
 			handlePost(exchange);
 		}
-		SimUtil.sendResponseWithResource(exchange, "/keepAlive.xml");
+		SimUtil.sendEmptyResponseWithCode(exchange, responseCode);
 	}
 
 	private void handlePost(HttpExchange exchange) {

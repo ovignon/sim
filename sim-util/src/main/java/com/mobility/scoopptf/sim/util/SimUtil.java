@@ -1,6 +1,7 @@
 package com.mobility.scoopptf.sim.util;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -9,6 +10,7 @@ import java.io.Reader;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
@@ -27,20 +29,45 @@ public class SimUtil {
 		try {
 			return IOUtils.resourceToString(resourcePath, StandardCharsets.UTF_8);
 		} catch (IOException e) {
-			return "#ERROR#";
+			return "#RESOURCE ERROR#";
 		}
 	}
 
-	public static void sendResponseWithResource(HttpExchange exchange, String resourcePath) throws IOException {
-		String response = SimUtil.buildReponseWithResource(resourcePath);
+	public static String buildReponseWithFile(String filePath) {
+		try {
+			return FileUtils.readFileToString(new File(filePath), StandardCharsets.UTF_8);
+		} catch (IOException e) {
+			return "#FILE ERROR#";
+		}
+	}
+
+	private static void sendResponseWithPath(HttpExchange exchange, String path, boolean isResource)
+			throws IOException {
+		String response = isResource ? SimUtil.buildReponseWithResource(path) : SimUtil.buildReponseWithFile(path);
 		int responseCode = 200;
 		exchange.sendResponseHeaders(responseCode, response.getBytes().length);
 		exchange.getResponseHeaders().set("Content-Type", "text/xml");
 		OutputStream os = exchange.getResponseBody();
-		LOGGER.info("=====> response.length() = {} / response.getBytes().length = {}", response.length(), response.getBytes().length);
+		LOGGER.info("=====> {} : response.length() = {} / response.getBytes().length = {}", path, response.length(),
+				response.getBytes().length);
 		os.write(response.getBytes());
 		os.flush();
 		os.close();
+	}
+
+	public static void sendResponseWithResource(HttpExchange exchange, String resourcePath) throws IOException {
+		sendResponseWithPath(exchange, resourcePath, true);
+	}
+
+	public static void sendResponseWithFile(HttpExchange exchange, String filePath) throws IOException {
+		sendResponseWithPath(exchange, filePath, false);
+	}
+
+	public static void sendEmptyResponseWithCode(HttpExchange exchange, int responseCode) throws IOException {
+		exchange.sendResponseHeaders(responseCode, 0);
+		exchange.getResponseBody().write(new byte[] {});
+		exchange.getResponseBody().flush();
+		exchange.getResponseBody().close();
 	}
 
 	public static boolean checkExchangeMethod(HttpExchange exchange, String methodName) {

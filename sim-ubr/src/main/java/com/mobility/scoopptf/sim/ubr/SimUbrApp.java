@@ -6,8 +6,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.mobility.scoopptf.sim.ubr.handlers.UbrPullHandler;
-import com.mobility.scoopptf.sim.ubr.handlers.UbrPushHandler;
+import com.mobility.scoopptf.sim.handlers.SimResourceHandler;
 import com.sun.net.httpserver.HttpServer;
 
 public class SimUbrApp {
@@ -29,8 +28,8 @@ public class SimUbrApp {
 			LOGGER.info("===== UBR Simulation on port {} =====", port);
 
 			HttpServer server = HttpServer.create(new InetSocketAddress(port), 0);
-			server.createContext("/pull", new UbrPullHandler());
-			server.createContext("/push", new UbrPushHandler());
+			server.createContext("/pull", new SimResourceHandler());
+			server.createContext("/push", new SimResourceHandler());
 			server.setExecutor(null);
 			server.start();
 

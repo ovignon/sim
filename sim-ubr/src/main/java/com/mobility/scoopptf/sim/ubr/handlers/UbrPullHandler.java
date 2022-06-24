@@ -1,6 +1,6 @@
 package com.mobility.scoopptf.sim.ubr.handlers;
 
-import com.mobility.scoopptf.sim.handlers.SimGenericHandler;
+import com.mobility.scoopptf.sim.handlers.SimResourceHandler;
 
-public class UbrPullHandler extends SimGenericHandler {
+public class UbrPullHandler extends SimResourceHandler {
 }
