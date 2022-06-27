@@ -17,7 +17,7 @@ public class SimFileHandler extends AbstractSimFileHandler {
 
 	@Override
 	protected void sendResponse(HttpExchange exchange, String fileLocation) throws IOException {
-		SimUtil.sendResponseWithFile(exchange, fileLocation);
+//		SimUtil.sendResponseWithFile(exchange, fileLocation);
 
 	}
 

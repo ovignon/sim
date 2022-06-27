@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body>
+<!-- scoop-test/AvecRIU/Snapshot/SAGT/DATEX_SAGT_2_EVT_VMS.xml -->
+<D2LogicalModel:d2LogicalModel xmlns:D2LogicalModel="http://datex2.eu/schema/2/2_0" xmlns:schemaLocation="http://datex2.eu/schema/2/2_0/DATEXIISchema_2_2_3.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" modelBaseVersion="2">
+	<D2LogicalModel:exchange>
+		<D2LogicalModel:supplierIdentification>
+			<D2LogicalModel:country>fr</D2LogicalModel:country>
+			<D2LogicalModel:nationalIdentifier>Sirius</D2LogicalModel:nationalIdentifier>
+		</D2LogicalModel:supplierIdentification>
+		<D2LogicalModel:subscription>
+			<D2LogicalModel:operatingMode>operatingMode2</D2LogicalModel:operatingMode>
+			<D2LogicalModel:subscriptionStartTime>2016-01-01T00:00:00.000+01:00</D2LogicalModel:subscriptionStartTime>
+			<D2LogicalModel:subscriptionState>active</D2LogicalModel:subscriptionState>
+			<D2LogicalModel:updateMethod>allElementUpdate</D2LogicalModel:updateMethod>
+			<D2LogicalModel:target>
+				<D2LogicalModel:address>not used</D2LogicalModel:address>
+				<D2LogicalModel:protocol>ftp</D2LogicalModel:protocol>
+			</D2LogicalModel:target>
+		</D2LogicalModel:subscription>
+	</D2LogicalModel:exchange>
+
+	<D2LogicalModel:payloadPublication xsi:type="D2LogicalModel:VmsPublication" lang="fr">
+		<D2LogicalModel:publicationTime>2018-10-04T09:40:00+02:00</D2LogicalModel:publicationTime>
+		<D2LogicalModel:publicationCreator>
+			<D2LogicalModel:country>fr</D2LogicalModel:country>
+			<D2LogicalModel:nationalIdentifier>SAGT_TG</D2LogicalModel:nationalIdentifier>
+		</D2LogicalModel:publicationCreator>
+		<D2LogicalModel:headerInformation>
+			<D2LogicalModel:confidentiality>noRestriction</D2LogicalModel:confidentiality>
+			<D2LogicalModel:informationStatus>real</D2LogicalModel:informationStatus>
+		</D2LogicalModel:headerInformation>
+		<D2LogicalModel:vmsUnit>
+			<D2LogicalModel:vmsUnitTableReference targetClass="VmsUnitTable" version="216" id="CRF_301_IVI_C3"/>
+			<D2LogicalModel:vmsUnitReference targetClass="VmsUnitRecord" version="216" id="DIRIF"/>
+			<D2LogicalModel:vms vmsIndex="1"> <!-- Normal -->
+				<D2LogicalModel:vms>
+					<D2LogicalModel:vmsWorking>true</D2LogicalModel:vmsWorking>
+					<D2LogicalModel:vmsMessage messageIndex="1">
+						<D2LogicalModel:vmsMessage>
+							<D2LogicalModel:timeLastSet>2018-09-17T14:52:41+02:00</D2LogicalModel:timeLastSet>
+						</D2LogicalModel:vmsMessage>
+					</D2LogicalModel:vmsMessage>
+					<D2LogicalModel:textDisplayAreaSettings>
+						<D2LogicalModel:textLanternsOn>true</D2LogicalModel:textLanternsOn>
+						<D2LogicalModel:textLuminanceOverride>true</D2LogicalModel:textLuminanceOverride>
+						<D2LogicalModel:textLuminanceLevel>10</D2LogicalModel:textLuminanceLevel>
+					</D2LogicalModel:textDisplayAreaSettings>
+					<D2LogicalModel:pictogramDisplayAreaSettings pictogramDisplayAreaIndex="1">
+						<D2LogicalModel:pictogramDisplayAreaSettings>
+							<D2LogicalModel:pictogramLanternsOn>true</D2LogicalModel:pictogramLanternsOn>
+						</D2LogicalModel:pictogramDisplayAreaSettings>
+					</D2LogicalModel:pictogramDisplayAreaSettings>
+				</D2LogicalModel:vms>
+			</D2LogicalModel:vms>
+			<D2LogicalModel:vms vmsIndex="2"> <!-- Normal -->
+				<D2LogicalModel:vms>
+					<D2LogicalModel:vmsWorking>true</D2LogicalModel:vmsWorking>
+					<D2LogicalModel:vmsMessage messageIndex="1">
+						<D2LogicalModel:vmsMessage>
+							<D2LogicalModel:timeLastSet>2018-10-04T09:39:00+02:00</D2LogicalModel:timeLastSet>
+							<D2LogicalModel:textPage pageNumber="1">
+								<D2LogicalModel:vmsText>
+									<D2LogicalModel:vmsTextLine lineIndex="1">
+										<D2LogicalModel:vmsTextLine>
+											<D2LogicalModel:vmsTextLine>A4&gt;BP:      </D2LogicalModel:vmsTextLine>
+										</D2LogicalModel:vmsTextLine>
+									</D2LogicalModel:vmsTextLine>
+									<D2LogicalModel:vmsTextLine lineIndex="2">
+										<D2LogicalModel:vmsTextLine>
+											<D2LogicalModel:vmsTextLine>  ACCIDENT  </D2LogicalModel:vmsTextLine>
+										</D2LogicalModel:vmsTextLine>
+									</D2LogicalModel:vmsTextLine>
+								</D2LogicalModel:vmsText>
+							</D2LogicalModel:textPage>
+							<D2LogicalModel:textPage pageNumber="2">
+								<D2LogicalModel:vmsText>
+									<D2LogicalModel:vmsTextLine lineIndex="1">
+										<D2LogicalModel:vmsTextLine>
+											<D2LogicalModel:vmsTextLine>A4&gt;BP:      </D2LogicalModel:vmsTextLine>
+										</D2LogicalModel:vmsTextLine>
+									</D2LogicalModel:vmsTextLine>
+									<D2LogicalModel:vmsTextLine lineIndex="2">
+										<D2LogicalModel:vmsTextLine>
+											<D2LogicalModel:vmsTextLine>    46MN    </D2LogicalModel:vmsTextLine>
+										</D2LogicalModel:vmsTextLine>
+									</D2LogicalModel:vmsTextLine>
+								</D2LogicalModel:vmsText>
+							</D2LogicalModel:textPage>
+						</D2LogicalModel:vmsMessage>
+					</D2LogicalModel:vmsMessage>
+				</D2LogicalModel:vms>
+			</D2LogicalModel:vms>
+		</D2LogicalModel:vmsUnit>
+	</D2LogicalModel:payloadPublication>
+</D2LogicalModel:d2LogicalModel></soapenv:Body></soapenv:Envelope>

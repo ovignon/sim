@@ -1,15 +1,12 @@
 package com.mobility.scoopptf.sim.sagt;
 
-import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.net.InetSocketAddress;
 
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.mobility.scoopptf.sim.handlers.SimFileHandler;
-import com.mobility.scoopptf.sim.handlers.SimResourceHandler;
+import com.mobility.scoopptf.sim.handlers.SimResourcePathHandler;
 import com.sun.net.httpserver.HttpServer;
 
 public class SimSagtApp {
@@ -18,7 +15,7 @@ public class SimSagtApp {
 
 	private static Logger LOGGER = LoggerFactory.getLogger(SimSagtApp.class);
 
-	public static void main(String[] args) throws FileNotFoundException, IOException {
+	public static void main(String[] args) {
 
 		int port = DEFAULT_PORT;
 
@@ -31,14 +28,11 @@ public class SimSagtApp {
 			LOGGER.info("===== SAGT Simulation on port {} =====", port);
 
 			HttpServer server = HttpServer.create(new InetSocketAddress(port), 0);
-			server.createContext("/push", new SimResourceHandler());
-			server.createContext("/snapshot-evt-info", new SimResourceHandler());
-			server.createContext("/snapshot-conf-pmv", new SimResourceHandler("/tests-c3-m260/snapshotConfPmv-{0}.xml",
-					"c:/projets/scoop/tmp/number.txt"));
-			server.createContext("/snapshot-info-pmv", new SimResourceHandler("/tests-c3-m260/snapshotInfoPmv-{0}.xml",
-					"c:/projets/scoop/tmp/number.txt"));
-			server.createContext("/snapshot-info-parking", new SimResourceHandler());
-			server.createContext("/tmp", new SimFileHandler("C:\\projets\\scoop\\tmp\\tmp-bashrc.txt"));
+			server.createContext("/push", new SimResourcePathHandler());
+			server.createContext("/snapshot-evt-info", new SimResourcePathHandler());
+			server.createContext("/snapshot-conf-pmv", new SimResourcePathHandler("/snapshotConfPmv-215.xml"));
+			server.createContext("/snapshot-info-pmv", new SimResourcePathHandler("/snapshotInfoPmv-215.xml"));
+			server.createContext("/snapshot-info-parking", new SimResourcePathHandler());
 			server.setExecutor(null);
 			server.start();
 

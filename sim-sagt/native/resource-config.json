@@ -1,0 +1,12 @@
+{
+  "resources": {
+    "includes": [
+      {"pattern": ".*properties$"},
+      {"pattern": "META-INF/org/apache/logging/log4j/core/config/plugins/.*dat$"},
+      {"pattern": "/META-INF/org/apache/logging/log4j/core/config/plugins/.*dat$"},
+      {"pattern": ".*xsd$"},
+      {"pattern": ".*dtd$"},
+      {"pattern": ".*xml$"}
+    ]
+  }
+}
