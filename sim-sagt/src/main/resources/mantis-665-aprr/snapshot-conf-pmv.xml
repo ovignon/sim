@@ -1,0 +1,2131 @@
+<?xml version="1.0" encoding="UTF-8"?><d2LogicalModel xmlns="http://datex2.eu/schema/2/2_0" xmlns:D2LogicalModel="http://datex2.eu/schema/2/2_0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" modelBaseVersion="2" xsi:schemaLocation="http://DATEX2.eu/schema/2/2_0 DatexIISchema_2_2_3.xsd">
+      <exchange>
+        <supplierIdentification>
+          <country>fr</country>
+          <nationalIdentifier>C_ROADS_AREA_SAGT</nationalIdentifier>
+        </supplierIdentification>
+        <subscription>
+          <operatingMode>operatingMode1</operatingMode>
+          <subscriptionStartTime>2023-12-05T17:50:08+01:00</subscriptionStartTime>
+          <subscriptionState>active</subscriptionState>
+          <updateMethod>snapshot</updateMethod>
+          <target>
+            <address>not used</address>
+            <protocol>not used</protocol>
+          </target>
+        </subscription>
+      </exchange>
+      <payloadPublication lang="fre" xsi:type="VmsTablePublication">
+        <publicationTime>2023-12-05T17:50:08+01:00</publicationTime>
+        <publicationCreator>
+          <country>fr</country>
+          <nationalIdentifier>C_ROADS_AREA_SAGT</nationalIdentifier>
+        </publicationCreator>
+        <headerInformation>
+          <confidentiality>noRestriction</confidentiality>
+          <informationStatus>real</informationStatus>
+        </headerInformation>
+        <vmsUnitTable id="cesar_table_PMV" version="841">
+          <vmsUnitRecord id="75010004" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>opposite</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0043</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>110</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>38PR64GC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75010006" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>opposite</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0048</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>100</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>38PR70GC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75010008" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>aligned</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0041</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>250</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>38PR4DC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75010011" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>aligned</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0041</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>800</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>74PR113DC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75010013" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>opposite</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0410</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>750</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>74PR161GC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75010014" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>aligned</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0049</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>480</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>38PR31DC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75010016" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>opposite</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0049</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>300</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>26PR59GC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75010017" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>aligned</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0051N</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>260</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>38PR0DC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75010018" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>aligned</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0041</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>729</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>74PR143DC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75010019" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>opposite</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0041</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>399</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>74PR144GC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75010020" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>opposite</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0041</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>180</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>74PR125GC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75020002" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>opposite</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0043</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>100</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>73PR76GC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75020003" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>aligned</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0051N</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>640</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>38PR16DC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75020004" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>opposite</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0041</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>930</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>74PR137GC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75030001" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>opposite</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0043</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>20</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>69PR5GC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75030002" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>aligned</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0043</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>540</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>69PR5DC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75030003" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>opposite</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0043</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>500</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>69PR9GC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75030004" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>aligned</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0043</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>100</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>69PR12DC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75030005" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>opposite</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0043</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>470</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>38PR18GC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75030007" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>opposite</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0043</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>400</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>38PR43GC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75030008" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>opposite</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0432</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>700</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>69PR32GC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75030009" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>aligned</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0043</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>100</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>73PR76DC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75030010" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>aligned</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0043</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>500</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>73PR85DC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75030014" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>opposite</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0048</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>500</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>38PR85GC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75030015" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>opposite</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0041</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>250</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>38PR4GC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75030017" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>aligned</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0041</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>100</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>38PR37DC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75030018" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>aligned</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0043</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>600</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>73PR101DC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75030019" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>opposite</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0041</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>660</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>73PR103GC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75030020" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>aligned</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0041</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>900</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>74PR129DC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75030022" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>aligned</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0043</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>980</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>73PR122DC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75030025" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>aligned</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0480</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>141</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>38PR9DC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75030026" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>opposite</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0041</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>100</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>38PR37GC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75030028" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>opposite</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0043</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>690</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>38PR26GC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75030029" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>aligned</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0041</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>200</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>73PR91DC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75030030" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>aligned</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0041</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>600</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>74PR122DC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75030031" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>aligned</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0043</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>450</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>38PR23DC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75030032" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>aligned</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0043</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>831</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>73PR108DC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75060001" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>aligned</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0041</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>69</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>74PR148DC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75060002" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>opposite</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0041</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>309</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>74PR153GC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75060003" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>aligned</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0041</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>649</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>74PR155DC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75060004" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>aligned</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0048</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>490</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>38PR91DC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75060005" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>aligned</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0048</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>530</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>38PR92DC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75060008" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>opposite</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0480</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>141</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>38PR9GC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75070001" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>aligned</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0048</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>540</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>38PR85DC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75070002" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>aligned</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0048</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>193</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>38PR87DC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75070003" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>aligned</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0048</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>134</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>38PR90DC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75070004" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>opposite</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0043</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>520</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>73PR85GC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75070006" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>aligned</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0041</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>665</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>74PR136DC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75070007" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>opposite</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0041</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>200</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>73PR91GC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75070008" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>opposite</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0041</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>990</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>38PR10GC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75070009" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>aligned</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0041</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>900</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>38PR9DC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75070010" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>aligned</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0043</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>470</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>38PR39DC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75070011" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>opposite</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0041</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>240</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>38PR21GC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75070012" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>aligned</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0041</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>240</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>38PR21DC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75070013" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>aligned</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0043</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>250</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>73PR71DC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75070014" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>aligned</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0043</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>450</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>38PR59DC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75070015" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>opposite</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0049</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>450</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>38PR2GC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75070016" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>opposite</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0043</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>831</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>73PR108GC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75070017" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>aligned</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0049</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>450</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>38PR2DC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75070018" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>aligned</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0048</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>200</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>38PR81DC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75070019" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>opposite</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0048</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>768</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>38PR92GC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75070020" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>aligned</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0480</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>425</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>38PR2DC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75070021" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>opposite</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0480</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>975</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>38PR2GC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75070022" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>aligned</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0480</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>875</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>38PR5DC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75070023" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>opposite</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0480</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>50</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>38PR7GC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75070024" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>aligned</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0048</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>760</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>38PR62DC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75070025" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>opposite</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0048</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>690</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>38PR88GC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75070026" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>opposite</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0049</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>450</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>38PR36GC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75070027" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>opposite</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0048</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>0</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>38PR47GC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+          <vmsUnitRecord id="75200002" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>opposite</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0043</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>0</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>38PR35GC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+        </vmsUnitTable>
+      </payloadPublication>
+    </d2LogicalModel>

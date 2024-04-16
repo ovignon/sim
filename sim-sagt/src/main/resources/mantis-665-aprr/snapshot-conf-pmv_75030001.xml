@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><d2LogicalModel xmlns="http://datex2.eu/schema/2/2_0" xmlns:D2LogicalModel="http://datex2.eu/schema/2/2_0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" modelBaseVersion="2" xsi:schemaLocation="http://DATEX2.eu/schema/2/2_0 DatexIISchema_2_2_3.xsd">
+      <exchange>
+        <supplierIdentification>
+          <country>fr</country>
+          <nationalIdentifier>C_ROADS_AREA_SAGT</nationalIdentifier>
+        </supplierIdentification>
+        <subscription>
+          <operatingMode>operatingMode1</operatingMode>
+          <subscriptionStartTime>2023-12-05T17:50:08+01:00</subscriptionStartTime>
+          <subscriptionState>active</subscriptionState>
+          <updateMethod>snapshot</updateMethod>
+          <target>
+            <address>not used</address>
+            <protocol>not used</protocol>
+          </target>
+        </subscription>
+      </exchange>
+      <payloadPublication lang="fre" xsi:type="VmsTablePublication">
+        <publicationTime>2023-12-05T17:50:08+01:00</publicationTime>
+        <publicationCreator>
+          <country>fr</country>
+          <nationalIdentifier>C_ROADS_AREA_SAGT</nationalIdentifier>
+        </publicationCreator>
+        <headerInformation>
+          <confidentiality>noRestriction</confidentiality>
+          <informationStatus>real</informationStatus>
+        </headerInformation>
+        <vmsUnitTable id="cesar_table_PMV" version="841">
+          <vmsUnitRecord id="75030001" version="841">
+            <vmsRecord vmsIndex="1">
+              <vmsRecord>
+                <vmsPictogramDisplayCharacteristics pictogramDisplayAreaIndex="1">
+                  <vmsPictogramDisplayCharacteristics>
+                    <pictogramPositionRelativeToText>toTheLeft</pictogramPositionRelativeToText>
+                    <vmsSupplementaryPanelCharacteristics>
+                      <relativePositionToPictogramArea>below</relativePositionToPictogramArea>
+                    </vmsSupplementaryPanelCharacteristics>
+                  </vmsPictogramDisplayCharacteristics>
+                </vmsPictogramDisplayCharacteristics>
+                <vmsLocation xsi:type="Point">
+                  <pointAlongLinearElement>
+                    <directionRelativeAtPoint>opposite</directionRelativeAtPoint>
+                    <linearElement>
+                      <roadNumber>A0043</roadNumber>
+                      <linearElementReferenceModel>RIU_2015</linearElementReferenceModel>
+                    </linearElement>
+                    <distanceAlongLinearElement xsi:type="DistanceFromLinearElementReferent">
+                      <distanceAlong>20</distanceAlong>
+                      <fromReferent>
+                        <referentIdentifier>69PR5GC</referentIdentifier>
+                        <referentType>referenceMarker</referentType>
+                      </fromReferent>
+                    </distanceAlongLinearElement>
+                  </pointAlongLinearElement>
+                </vmsLocation>
+              </vmsRecord>
+            </vmsRecord>
+          </vmsUnitRecord>
+        </vmsUnitTable>
+      </payloadPublication>
+    </d2LogicalModel>

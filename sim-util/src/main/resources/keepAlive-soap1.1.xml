@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+  <soap:Body>
+    <D2LogicalModel:d2LogicalModel xmlns:D2LogicalModel="http://datex2.eu/schema/2/2_0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" modelBaseVersion="2" xsi:schemaLocation="http://DATEX2.eu/schema/2/2_0 DatexIISchema_2_2_3.xsd">
+	<D2LogicalModel:exchange>
+		<D2LogicalModel:keepAlive>true</D2LogicalModel:keepAlive>
+		<D2LogicalModel:response>acknowledge</D2LogicalModel:response>
+		<D2LogicalModel:supplierIdentification>
+			<D2LogicalModel:country>fr</D2LogicalModel:country>
+			<D2LogicalModel:nationalIdentifier>_NATIONAL_IDENTIFIER_</D2LogicalModel:nationalIdentifier>
+		</D2LogicalModel:supplierIdentification>
+	</D2LogicalModel:exchange>
+</D2LogicalModel:d2LogicalModel>
+  </soap:Body>
+</soap:Envelope>

@@ -13,12 +13,18 @@ public class SimResourcePathHandler implements HttpHandler {
 
 	private Logger logger = LoggerFactory.getLogger(SimResourcePathHandler.class);
 	private String resourcePath = "/keepAlive.xml";
+	private String nationalIdentifier = null;
 
 	public SimResourcePathHandler() {
 	}
 
-	public SimResourcePathHandler(String resourcePath) {
+	public SimResourcePathHandler(String nationalIdentifier) {
+		this.nationalIdentifier = nationalIdentifier;
+	}
+
+	public SimResourcePathHandler(String nationalIdentifier, String resourcePath) {
 		this.resourcePath = resourcePath;
+		this.nationalIdentifier = nationalIdentifier;
 	}
 
 	@Override
@@ -28,11 +34,16 @@ public class SimResourcePathHandler implements HttpHandler {
 		if (SimUtil.exchangeMethodIsPost(exchange)) {
 			handlePost(exchange);
 		}
-		SimUtil.sendResponseWithResource(exchange, resourcePath);
+		SimUtil.sendResponseWithResource(exchange, resourcePath, nationalIdentifier);
 	}
 
 	private void handlePost(HttpExchange exchange) {
 		String body = SimUtil.inputStreamToString(exchange.getRequestBody());
 		logger.info("----> {}", body);
 	}
+
+	public String getNationalIdentifier() {
+		return nationalIdentifier;
+	}
+
 }

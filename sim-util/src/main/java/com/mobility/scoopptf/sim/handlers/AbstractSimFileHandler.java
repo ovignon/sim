@@ -19,18 +19,21 @@ public abstract class AbstractSimFileHandler implements HttpHandler {
 	private Logger logger = LoggerFactory.getLogger(AbstractSimFileHandler.class);
 	protected final String path;
 	protected final String valueFilePath;
+	private final String nationalIdentifier;
 
-	protected AbstractSimFileHandler(String path, String valueFilePath) {
+	protected AbstractSimFileHandler(String nationalIdentifier, String path, String valueFilePath) {
 		super();
+		this.nationalIdentifier = nationalIdentifier;
 		this.path = path;
 		this.valueFilePath = valueFilePath;
 	}
 
-	protected AbstractSimFileHandler(String path) {
-		this(path, null);
+	protected AbstractSimFileHandler(String nationalIdentifier, String path) {
+		this(nationalIdentifier, path, null);
 	}
 
-	protected abstract void sendResponse(HttpExchange exchange, String fileLocation) throws IOException;
+	protected abstract void sendResponse(HttpExchange exchange, String fileLocation, String nationalIdentifier)
+			throws IOException;
 
 	@Override
 	public void handle(HttpExchange exchange) throws IOException {
@@ -47,7 +50,7 @@ public abstract class AbstractSimFileHandler implements HttpHandler {
 			}
 
 		}
-		sendResponse(exchange, responseContentPath);
+		sendResponse(exchange, responseContentPath, nationalIdentifier);
 	}
 
 	private void handlePost(HttpExchange exchange) {

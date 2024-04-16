@@ -1,0 +1,5 @@
+# Exécution avec le port 9090 par défaut :
+java -jar target/sim-ubr-1.0.0-SNAPSHOT-jar-with-dependencies.jar 
+
+# Exécution avec le port 8087 en argument :
+java -jar target/sim-ubr-1.0.0-SNAPSHOT-jar-with-dependencies.jar 8087

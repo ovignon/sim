@@ -11,6 +11,7 @@
 		<module>sim-util</module>
 		<module>sim-ubr</module>
 		<module>sim-sagt</module>
+		<module>sim-sender</module>
 	</modules>
 
 </project>

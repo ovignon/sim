@@ -18,9 +18,13 @@ public class SimUbrApp {
 	public static void main(String[] args) {
 
 		int port = DEFAULT_PORT;
+		String nationalIdentifier = null;
 
 		if (args != null && args.length > 0 && StringUtils.isNumeric(args[0])) {
 			port = Integer.valueOf(args[0]);
+		}
+		if (args != null && args.length > 1 && StringUtils.isNotBlank(args[1])) {
+			nationalIdentifier = args[1];
 		}
 
 		try {
@@ -28,8 +32,8 @@ public class SimUbrApp {
 			LOGGER.info("===== UBR Simulation on port {} =====", port);
 
 			HttpServer server = HttpServer.create(new InetSocketAddress(port), 0);
-			server.createContext("/pull", new SimResourcePathHandler());
-			server.createContext("/push", new SimResourcePathHandler());
+			server.createContext("/pull", new SimResourcePathHandler(nationalIdentifier));
+			server.createContext("/push", new SimResourcePathHandler(nationalIdentifier));
 			server.setExecutor(null);
 			server.start();
 

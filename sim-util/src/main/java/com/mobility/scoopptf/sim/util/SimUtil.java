@@ -31,8 +31,12 @@ public class SimUtil {
 		}
 	}
 
-	public static void sendResponseWithResource(HttpExchange exchange, String resourcePath) throws IOException {
+	public static void sendResponseWithResource(HttpExchange exchange, String resourcePath, String nationalIdentifier)
+			throws IOException {
 		String response = SimUtil.buildReponseWithResource(resourcePath);
+		if (StringUtils.isNotBlank(nationalIdentifier)) {
+			response = response.replaceAll("_NATIONAL_IDENTIFIER_", nationalIdentifier);
+		}
 		int responseCode = 200;
 		exchange.sendResponseHeaders(responseCode, response.getBytes().length);
 		exchange.getResponseHeaders().set("Content-Type", "text/xml");

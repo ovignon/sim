@@ -1,0 +1,3394 @@
+<?xml version="1.0" encoding="UTF-8"?><d2LogicalModel xmlns="http://datex2.eu/schema/2/2_0" xmlns:D2LogicalModel="http://datex2.eu/schema/2/2_0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" modelBaseVersion="2" xsi:schemaLocation="http://DATEX2.eu/schema/2/2_0 DatexIISchema_2_2_3.xsd">
+      <exchange>
+        <supplierIdentification>
+          <country>fr</country>
+          <nationalIdentifier>C_ROADS_AREA_SAGT</nationalIdentifier>
+        </supplierIdentification>
+        <subscription>
+          <operatingMode>operatingMode1</operatingMode>
+          <subscriptionStartTime>2023-12-05T17:50:11+01:00</subscriptionStartTime>
+          <subscriptionState>active</subscriptionState>
+          <updateMethod>snapshot</updateMethod>
+          <target>
+            <address>not used</address>
+            <protocol>not used</protocol>
+          </target>
+        </subscription>
+      </exchange>
+      <payloadPublication lang="fre" xsi:type="VmsPublication">
+        <publicationTime>2023-12-05T17:50:11+01:00</publicationTime>
+        <publicationCreator>
+          <country>fr</country>
+          <nationalIdentifier>C_ROADS_AREA_SAGT</nationalIdentifier>
+        </publicationCreator>
+        <headerInformation>
+          <confidentiality>noRestriction</confidentiality>
+          <informationStatus>real</informationStatus>
+        </headerInformation>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75010004" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:16:46+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine> SUR AUTOROUTE </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine> NE GENEZ PAS  </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine>TENEZ LA DROITE</vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75010006" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:16:46+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine> SUR AUTOROUTE </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine> NE GENEZ PAS  </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine>TENEZ LA DROITE</vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75010008" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:16:47+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>    PAS DE     </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine> TELEPHONE EN  </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine>  CONDUISANT   </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75010011" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:16:47+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>    PAS DE     </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine> TELEPHONE EN  </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine>  CONDUISANT   </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75010013" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:16:48+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>SOS AUTOROUTE  </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine>BORNE D'APPEL  </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine>EMBARQUEE      </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75010014" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:16:48+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>    PENSEZ     </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine> A NOS AGENTS  </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine>EN INTERVENTION</vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75010016" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:16:49+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine> SOS AUTOROUTE </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine>  L'APPLICATION</vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine>   SECURITE    </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75010017" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:16:49+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>    PENSEZ     </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine> A NOS AGENTS  </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine>EN INTERVENTION</vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75010018" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:16:50+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine>...            </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75010019" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:16:50+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>    PAS DE     </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine> TELEPHONE EN  </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine>  CONDUISANT   </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75010020" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:16:50+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine> SUR AUTOROUTE </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine> NE GENEZ PAS  </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine>TENEZ LA DROITE</vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75020002" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:16:51+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine>...            </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75020003" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:16:51+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine> SUR AUTOROUTE </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine> NE GENEZ PAS  </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine>TENEZ LA DROITE</vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75020004" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:16:52+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine>...            </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75030001" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:16:52+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine>...            </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75030002" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:16:53+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine>...            </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75030003" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:16:53+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine>    PENSEZ     </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine> A NOS AGENTS  </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine>EN INTERVENTION</vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75030004" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:16:53+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine>  INFO TRAFIC  </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine>    ECOUTEZ    </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine>   107.7 FM    </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75030005" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:16:54+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine>...            </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75030007" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:16:54+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine>VEHICULE       </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine>EN INTERVENTION</vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine>JE M'ECARTE    </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75030008" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:47:32+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine>    PAS DE     </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine> TELEPHONE EN  </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine>  CONDUISANT   </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75030009" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:16:55+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine>    PENSEZ     </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine> A NOS AGENTS  </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine>EN INTERVENTION</vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75030010" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:16:55+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine>...            </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75030014" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:16:56+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine> SOS AUTOROUTE </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine>  L'APPLICATION</vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine>   SECURITE    </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75030015" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:16:56+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine> SUR AUTOROUTE </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine> NE GENEZ PAS  </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine>TENEZ LA DROITE</vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75030017" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:16:57+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine>...            </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75030018" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:16:57+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine>...            </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75030019" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:16:58+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine>VEHICULE       </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine>EN INTERVENTION</vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine>JE M'ECARTE    </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75030020" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:16:58+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine> SUR AUTOROUTE </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine> NE GENEZ PAS  </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine>TENEZ LA DROITE</vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75030022" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:16:59+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine> SUR AUTOROUTE </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine> NE GENEZ PAS  </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine>TENEZ LA DROITE</vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75030025" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:16:59+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine>...            </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75030026" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:17:00+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine>VEHICULE       </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine>EN INTERVENTION</vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine>JE M'ECARTE    </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75030028" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:17:00+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine>  INFO TRAFIC  </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine>    ECOUTEZ    </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine>   107.7 FM    </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75030029" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:17:00+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine>SOS AUTOROUTE  </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine>BORNE D'APPEL  </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine>EMBARQUEE      </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75030030" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:17:01+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine>...            </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75030031" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:17:01+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine>  SECURITE :   </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine> NE JETEZ RIEN </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine> SUR LES VOIES </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75030032" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:17:02+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine>...            </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75060001" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:17:26+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine> SOS AUTOROUTE </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine>  L'APPLICATION</vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine>   SECURITE    </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75060002" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:17:26+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine>    PENSEZ     </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine> A NOS AGENTS  </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine>EN INTERVENTION</vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75060003" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:17:26+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine>  INFO TRAFIC  </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine>    ECOUTEZ    </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine>   107.7 FM    </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75060004" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:17:27+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine>LES VIES DE NOS</vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine>AGENTS SONT    </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine>ENTRE VOS MAINS</vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75060005" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:17:27+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine>    PENSEZ     </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine> A NOS AGENTS  </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine>EN INTERVENTION</vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75060008" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:17:27+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine>LES VIES DE NOS</vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine>AGENTS SONT    </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine>ENTRE VOS MAINS</vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75070001" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:17:28+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine>...            </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75070002" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:17:28+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine>...            </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75070003" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:17:28+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine>...            </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75070004" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:17:29+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine>  SECURITE :   </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine> NE JETEZ RIEN </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine> SUR LES VOIES </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75070006" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:17:30+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine>  SECURITE :   </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine> NE JETEZ RIEN </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine> SUR LES VOIES </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75070007" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:17:30+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine>...            </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75070008" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:17:30+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine>...            </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75070009" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:17:31+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine>...            </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75070010" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:17:31+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine>SOS AUTOROUTE  </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine>BORNE D'APPEL  </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine>EMBARQUEE      </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75070011" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:17:31+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine> SOS AUTOROUTE </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine>  L'APPLICATION</vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine>   SECURITE    </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75070012" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:17:32+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine> SUR AUTOROUTE </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine> NE GENEZ PAS  </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine>TENEZ LA DROITE</vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75070013" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:17:32+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine>...            </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75070014" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:17:32+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine>    PAS DE     </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine> TELEPHONE EN  </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine>  CONDUISANT   </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75070015" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:17:33+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine> SUR AUTOROUTE </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine> NE GENEZ PAS  </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine>TENEZ LA DROITE</vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75070016" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:17:33+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine> SUR AUTOROUTE </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine> NE GENEZ PAS  </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine>TENEZ LA DROITE</vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75070017" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:17:34+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine>...            </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75070018" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>situationWarning</vmsMessageInformationType>
+                  <timeLastSet>2023-10-03T13:53:37+02:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75070019" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:17:34+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine>SOS AUTOROUTE  </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine>BORNE D'APPEL  </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine>EMBARQUEE      </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75070020" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:17:34+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine>SOS AUTOROUTE  </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine>BORNE D'APPEL  </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine>EMBARQUEE      </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75070021" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:17:35+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine>    PENSEZ     </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine> A NOS AGENTS  </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine>EN INTERVENTION</vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75070022" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:17:35+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine>...            </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75070023" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:17:35+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine>...            </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75070024" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-04T14:21:38+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine> TOUS ATTACHES </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine>   POUR TOUS   </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine>    ARRIVER    </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75070025" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:17:36+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine>...            </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75070026" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:17:36+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine>    PENSEZ     </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine> A NOS AGENTS  </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine>EN INTERVENTION</vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75070027" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2023-12-05T17:17:36+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine>...            </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-98</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+        <vmsUnit>
+          <vmsUnitTableReference id="cesar_table_PMV" targetClass="VmsUnitTable" version="841"/>
+          <vmsUnitReference id="75200002" targetClass="VmsUnitRecord" version="841"/>
+          <vms vmsIndex="1">
+            <vms>
+              <vmsWorking>true</vmsWorking>
+              <vmsMessage messageIndex="1">
+                <vmsMessage>
+                  <vmsMessageInformationType>campaignMessage</vmsMessageInformationType>
+                  <timeLastSet>2020-10-30T00:00:00+01:00</timeLastSet>
+                  <textPage pageNumber="1">
+                    <vmsText>
+                      <vmsTextLine lineIndex="1">
+                        <vmsTextLine>
+                          <vmsTextLine>               </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="2">
+                        <vmsTextLine>
+                          <vmsTextLine>OBSTACLE       </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="3">
+                        <vmsTextLine>
+                          <vmsTextLine>SUR LA CHAUSSEE</vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                      <vmsTextLine lineIndex="4">
+                        <vmsTextLine>
+                          <vmsTextLine>A 4 KM         </vmsTextLine>
+                        </vmsTextLine>
+                      </vmsTextLine>
+                    </vmsText>
+                  </textPage>
+                  <vmsPictogramDisplayArea pictogramDisplayAreaIndex="1">
+                    <vmsPictogramDisplayArea>
+                      <vmsPictogram pictogramSequencingIndex="1">
+                        <vmsPictogram>
+                          <pictogramCode>dangerWarning---9-99</pictogramCode>
+                          <presenceOfRedTriangle>false</presenceOfRedTriangle>
+                          <vmsSupplementaryPanel>
+                            <vmsSupplementaryText>
+                              <vmsTextLine>  TEST</vmsTextLine>
+                            </vmsSupplementaryText>
+                          </vmsSupplementaryPanel>
+                        </vmsPictogram>
+                      </vmsPictogram>
+                    </vmsPictogramDisplayArea>
+                  </vmsPictogramDisplayArea>
+                </vmsMessage>
+              </vmsMessage>
+            </vms>
+          </vms>
+        </vmsUnit>
+      </payloadPublication>
+    </d2LogicalModel>

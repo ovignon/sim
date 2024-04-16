@@ -10,20 +10,21 @@ public class SimResourceHandler extends AbstractSimFileHandler {
 	public static final String DEFAULT_PATH = "/keepAlive.xml";
 
 	public SimResourceHandler() {
-		super(DEFAULT_PATH);
+		super(null, DEFAULT_PATH);
 	}
 
-	public SimResourceHandler(String resourcePath) {
-		super(resourcePath);
+	public SimResourceHandler(String nationalIdentifier, String resourcePath) {
+		super(nationalIdentifier, resourcePath);
 	}
 
-	public SimResourceHandler(String resourcePath, String valueFilePath) {
-		super(resourcePath, valueFilePath);
+	public SimResourceHandler(String nationalIdentifier, String resourcePath, String valueFilePath) {
+		super(nationalIdentifier, resourcePath, valueFilePath);
 	}
 
 	@Override
-	protected void sendResponse(HttpExchange exchange, String resourceLocation) throws IOException {
-		SimUtil.sendResponseWithResource(exchange, resourceLocation);
+	protected void sendResponse(HttpExchange exchange, String resourceLocation, String nationalIdentifier)
+			throws IOException {
+		SimUtil.sendResponseWithResource(exchange, resourceLocation, nationalIdentifier);
 
 	}
 
